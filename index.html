@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumit Creator Vlogs</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #0f0f0f;
+            color: white;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        h1 { color: #FF0000; }
+        .section {
+            margin-bottom: 50px;
+            text-align: center;
+            width: 100%;
+            max-width: 700px;
+        }
+        /* Local Video */
+        video {
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(255,255,255,0.1);
+        }
+        /* Shorts Grid */
+        .shorts-grid {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .short-card {
+            width: 250px;
+            text-decoration: none;
+            color: white;
+            transition: 0.3s;
+        }
+        .short-card:hover { transform: scale(1.05); }
+        .short-card img {
+            width: 100%;
+            border-radius: 15px;
+            border: 2px solid #333;
+        }
+        .short-card p {
+            margin-top: 10px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        /* Subscribe Button */
+        .btn-subscribe {
+            background-color: #FF0000;
+            color: white;
+            padding: 15px 35px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border-radius: 50px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Sumit Creator Vlogs</h1>
+
+    <div class="section">
+        <h3>My Local Video</h3>
+        <video controls>
+            <source src="text.mp4" type="video/mp4">
+            Aapka browser support nahi karta.
+        </video>
+    </div>
+
+    <div class="section">
+        <h3>Featured Shorts</h3>
+        <div class="shorts-grid">
+            
+            <a href="https://youtube.com/shorts/k0lVDf2QmxI" target="_blank" class="short-card">
+                <img src="https://img.youtube.com/vi/k0lVDf2QmxI/maxresdefault.jpg" alt="Short 1">
+                <p>Click to Watch Short 1 🎥</p>
+            </a>
+
+            <a href="https://youtube.com/shorts/cXbgYXx_Fp4" target="_blank" class="short-card">
+                <img src="https://img.youtube.com/vi/cXbgYXx_Fp4/maxresdefault.jpg" alt="Short 2">
+                <p>Click to Watch Short 2 🎥</p>
+            </a>
+
+        </div>
+    </div>
+
+    <div class="section">
+        <a href="https://www.youtube.com/@sumitcreatorvlogs" target="_blank" class="btn-subscribe">
+            Subscribe @sumitcreatorvlogs
+        </a>
+    </div>
+
+</body>
+</html>
